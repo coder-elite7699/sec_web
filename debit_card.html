@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay via Credit Card</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Pay via Debit Card</legend>
+        <form>
+            <label for="card_no">Card Number: </label>
+            <input type="number" name="card_no" id="card_no">
+            <br><br>
+            <label for="expiry">Valid Upto:</label>
+            <input type="date", id="expiry">
+            <br><br>
+            <label for="name">Card Holder Name:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="cvv">CVV:</label>
+            <input type="password" name="cvv" id="cvv">
+            <br><br>
+            <input type="button" value="send OTP">
+            <br><br>
+            <label for="otp">OTP:</label>
+            <input type="number" id="otp">
+            <br><br>
+            <a href="payment_closing.html"><input type="button" value="Make Payment"></a>
+        </form>
+    </fieldset>
+</body>
+</html>
